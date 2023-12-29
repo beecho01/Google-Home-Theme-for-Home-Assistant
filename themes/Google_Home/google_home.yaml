@@ -1,0 +1,545 @@
+# Based on https://github.com/Nerwyn/material-rounded-theme
+# A theme made to emulates the Google Home Application by Google
+# Uses card-mod to change the header to the footer, disable the selection bar, and enable header icon coloring
+Google Home:
+    modes:
+        dark:
+            # Token colors
+            token-color-primary: rgba(0, 74, 119, 1)
+            token-color-accent: rgba(184, 223, 248, 1)
+            token-color-feedback-info: rgba(138, 208, 248, 1)
+            token-color-feedback-warning: rgba(244, 180, 0, 1)
+            token-color-feedback-error: rgba(229, 97, 128, 1)
+            token-color-feedback-success: rgba(93, 193, 145, 1)
+            token-color-icon-primary: rgba(196, 199, 197, 1)
+            token-color-icon-secondary: rgba(138, 140, 153, 1)
+            token-color-icon-sidebar: rgba(147, 149, 159, 1)
+            token-color-icon-sidebar-selected: rgba(174, 176, 183, 1)
+            token-color-text-primary: rgba(228, 226, 228, 1)
+            token-color-text-secondary: rgba(138, 140, 153, 1)
+            token-color-text-disabled: rgba(114, 112, 114, 1)
+            token-color-text-sidebar-selected: rgba(214, 215, 219, 1)
+            token-color-text-sidebar: rgba(138, 140, 153, 1)
+            token-color-text-label-badge: rgba(198, 203, 210, 1)
+            token-color-background-base: rgba(19, 19, 19, 1)
+            token-color-background-secondary: rgba(40, 42, 46, 1)
+            token-color-background-tertiary: rgba(0, 0, 0, 1)
+            token-color-background-sidebar: rgba(19, 19, 19, 1)
+            token-color-background-input-base: rgba(46, 48, 56, 1)
+            token-color-background-input-disabled: rgba(37, 37, 40, 0.5)
+            token-color-background-label-badge: rgba(54, 55, 67, 1)
+            token-color-background-card: rgba(50, 52, 58, 1)
+            token-color-background-skrim: rgba(0, 0, 3, 0.9)
+            token-color-background-divider: rgba(19, 19, 19, 1)
+            token-color-background-scrollbar-thumb: rgba(46, 48, 56, 1)
+            token-color-background-label-badge-red: rgba(229, 97, 128, 1)
+            token-color-background-label-badge-green: rgba(78, 183, 128, 1)
+            token-color-background-label-badge-blue: rgba(138, 208, 248, 1)
+            token-color-background-label-badge-yellow: rgba(244, 180, 0, 1)
+            token-color-background-label-badge-grey: rgba(83, 90, 103, 1)
+            token-color-background-popup-scrim: rgba(4, 5, 7, 0.9)
+            token-color-border-card: rgba(0, 0, 0, 0)
+
+            # Feedback colors
+            error-color: rgba(234, 114, 135, 1)
+            warning-color: rgba(255, 219, 117, 1)
+            success-color: rgba(118, 214, 152, 1)
+            info-color: rgba(39, 209, 246, 1)
+
+            # Inconsistent tile card CSS
+            state-alarm_control_panel-disarmed-color: rgba(72, 74, 7, 1)
+            state-fan-off-color: rgba(40, 42, 46, 1)
+            state-climate-off-color: rgba(72, 74, 78, 1)
+
+            # Chip
+            ha-chip-text-color: rgba(255, 255, 255, 1)
+
+            # Editor
+            codemirror-string: rgba(119, 196, 229, 1)
+            codemirror-keyword: rgba(140, 169, 255, 1)
+            codemirror-number: rgba(255, 91, 29, 1)
+
+            # Switch
+            switch-unchecked-button-color: rgba(255, 255, 255, 0.7)
+            switch-unchecked-track-color: rgba(125, 128, 132, 0.4)
+
+            # HACS
+            hacs-new-color: rgba(27, 153, 123, 1)
+            hacs-error-color: rgba(182, 46, 95, 1)
+
+            # RGB Colors
+            rgb-primary-text-color: 32, 32, 32
+
+            # Home Icon Colors
+            home-icon-background-color: rgba(0, 74, 119, 1)
+            home-icon-color: rgba(194, 231, 255, 1)
+
+            # Camera Card Colors
+            camera-card-background: rgba(45, 64, 89, 1)
+            camera-card-icon-color: rgba(159, 179, 255, 1)
+            camera-card-label-color: rgba(195, 195, 195, 1)
+
+            # Light Card Colors
+            light-card-pale-background: rgba(52, 47, 43, 1)
+            light-card-background: rgba(80, 69, 45, 1)
+            light-card-slider-background: rgba(255, 190, 0, 1)
+            light-card-icon-color-on: rgba(253, 226, 134, 1)
+            light-card-icon-color-off: rgba(228, 226, 228, 1)
+            light-card-label-color: rgba(195, 195, 195, 1)
+
+            # Wi-Fi Card Colors
+            wifi-card-pale-background: rgba(30, 31, 32, 1)
+            wifi-card-background-online: rgba(44, 53, 50, 1)
+            wifi-card-background-offline: rgba(53, 47, 42, 1)
+            wifi-card-background: rgba(44, 53, 50, 1)
+            wifi-card-icon-color: rgba(168, 218, 181, 1)
+            wifi-card-icon-color-online: rgba(168, 218, 181, 1)
+            wifi-card-icon-color-offline: rgba(254, 219, 183, 1)
+            wifi-card-label-color: rgba(195, 195, 195, 1)
+
+            # Climate Card Colors
+            climate-card-background: rgba(54, 47, 46, 1)
+            climate-card-icon-color: rgba(254, 215, 207, 1)
+            climate-card-label-color: rgba(195, 195, 195, 1)
+
+            # Device Card Colors
+            device-card-background-on: rgba(66, 69, 87, 1)
+            device-card-background-unavailabe: rgba(46, 46, 46, 1)
+            device-card-icon-color-on: rgba(211, 215, 242, 1)
+            device-card-icon-color-off: rgba(228, 226, 228, 1)
+            device-card-name-color: rgba(211, 215, 242, 1)
+            device-card-state-color: rgba(211, 215, 242, 1)
+
+            # Automation Card Colors
+            automation-card-background: rgba(50, 52, 58, 1)
+            automation-card-name-color: rgba(228, 226, 228, 1)
+            automation-card-icon-color: rgba(228, 226, 228, 1)
+            automation-card-label-color: rgba(228, 226, 228, 1)
+
+            # Navbar
+            app-header-background-color: rgba(45, 47, 51, 1)
+            app-header-text-color: rgba(195, 195, 195, 1)
+            app-header-edit-background-color: rgba(45, 47, 51, 1)
+            header-selected-color-background: rgba(0, 74, 119, 1)
+            header-selected-icon-color: rgba(195, 231, 255, 1)
+
+        light:
+            # Token colors
+            token-color-primary: rgba(194, 231, 255, 1)
+            token-color-accent: rgba(3, 32, 56, 1)
+            token-color-feedback-info: rgba(138, 208, 248, 1)
+            token-color-feedback-warning: rgba(244, 180, 0, 1)
+            token-color-feedback-error: rgba(229, 97, 128, 1)
+            token-color-feedback-success: rgba(93, 193, 145, 1)
+            token-color-icon-primary: rgba(69, 71, 70, 1)
+            token-color-icon-secondary: rgba(42, 43, 51, 1)
+            token-color-icon-sidebar: rgba(88, 89, 95, 1)
+            token-color-icon-sidebar-selected: rgba(29, 30, 32, 1)
+            token-color-text-primary: rgba(31, 31, 31, 1)
+            token-color-text-secondary: rgba(68, 71, 70, 1)
+            token-color-text-disabled: rgba(128, 128, 128, 1)
+            token-color-text-sidebar-selected: rgba(41, 40, 36, 1)
+            token-color-text-sidebar: rgba(68, 71, 70, 1)
+            token-color-text-label-badge: rgba(198, 203, 210, 1)
+            token-color-background-base: rgba(255, 255, 255, 1)
+            token-color-background-secondary: rgba(215, 213, 209, 1)
+            token-color-background-tertiary: rgba(173, 176, 174, 1)
+            token-color-background-sidebar: rgba(255, 255, 255, 1)
+            token-color-background-input-base: rgba(234, 234, 235, 1)
+            token-color-background-input-disabled: rgba(218, 218, 215, 0.5)
+            token-color-background-label-badge: rgba(201, 200, 188, 1)
+            token-color-background-card: rgba(242, 246, 252, 1) 
+            token-color-background-skrim: rgba(205, 203, 197, 0.9)
+            token-color-background-divider: rgba(255, 255, 255, 1)
+            token-color-background-scrollbar-thumb: rgba(46, 48, 56, 1)
+            token-color-background-label-badge-red: rgba(229, 97, 128, 1)
+            token-color-background-label-badge-green: rgba(78, 183, 128, 1)
+            token-color-background-label-badge-blue: rgba(138, 208, 248, 1)
+            token-color-background-label-badge-yellow: rgba(244, 180, 0, 1)
+            token-color-background-label-badge-grey: rgba(83, 90, 103, 1)
+            token-color-background-popup-scrim: rgba(4, 5, 7, 0.9)
+            token-color-border-card: rgba(0, 0, 0, 0)
+
+            # Feedback colors
+            error-color: rgba(234, 114, 135, 1)
+            warning-color: rgba(255, 219, 117, 1)
+            success-color: rgba(118, 214, 152, 1)
+            info-color: rgba(39, 209, 246, 1)
+
+            # Inconsistent tile card CSS
+            state-alarm_control_panel-disarmed-color: rgba(158, 158, 158, 1)
+            state-fan-off-color: rgba(158, 158, 158, 1)
+            state-climate-off-color: rgba(158, 158, 158, 1)
+
+            # Chip
+            ha-chip-text-color: rgba(255, 255, 255, 1)
+
+            # Editor
+            codemirror-string: rgba(119, 196, 229, 1)
+            codemirror-keyword: rgba(140, 169, 255, 1)
+            codemirror-number: rgba(255, 91, 29, 1)
+
+            # Switch
+            switch-unchecked-button-color: rgba(255, 255, 255, 0.7)
+            switch-unchecked-track-color: rgba(125, 128, 132, 0.4)
+
+            # HACS
+            hacs-new-color: rgba(27, 153, 123, 1)
+            hacs-error-color: rgba(182, 46, 95, 1)
+
+            # RGB Colors
+            rgb-primary-text-color: 228, 226, 228
+
+            # Home Icon Colors
+            home-icon-background-color: rgba(217, 226, 255, 1)
+            home-icon-color: rgba(2, 86, 207, 1)
+
+            # Camera Card Colors
+            camera-card-background: rgba(237, 240, 255, 1)
+            camera-card-icon-color: rgba(2, 86, 207, 1)
+            camera-card-label-color: rgba(136, 136, 136, 1)
+
+            # Light Card Colors
+            light-card-pale-background: rgba(255, 239, 203, 1)
+            light-card-background: rgba(253, 226, 134, 1)
+            light-card-slider-background: rgba(255, 190, 0, 1)
+            light-card-icon-color-on: rgba(114, 94, 4, 1)
+            light-card-icon-color-off: rgba(31, 31, 31, 1)
+            light-card-label-color: rgba(136, 136, 136, 1)
+
+            # Wi-Fi Card Colors
+            wifi-card-pale-background: rgba(30, 31, 32, 1)
+            wifi-card-background: rgba(233, 244, 235, 1)
+            wifi-card-background-online: rgba(233, 244, 235, 1)
+            wifi-card-background-offline: rgba(233, 244, 235, 1)
+            wifi-card-icon-color: rgba(32, 143, 59, 1)
+            wifi-card-icon-color-online: rgba(32, 143, 59, 1)
+            wifi-card-icon-color-offline: rgba(32, 143, 59, 1)
+            wifi-card-label-color: rgba(136, 136, 136, 1)
+
+            # Climate Card Colors
+            climate-card-background: rgba(255, 235, 232, 1)
+            climate-card-icon-color: rgba(161, 46, 6, 1)
+            climate-card-label-color: rgba(136, 136, 136, 1)
+
+            # Device Card Colors
+            device-card-background-on: rgba(217, 226, 255, 1)
+            device-card-background-unavailabe: rgba(228, 228, 228, 1)
+            device-card-icon-color-on: rgba(2, 86, 207, 1)
+            device-card-icon-color-off: rgba(31, 31, 31, 1)
+            device-card-name-color: rgba(2, 86, 207, 1)
+            device-card-state-color: rgba(2, 86, 207, 1)
+
+            # Automation Card Colors
+            automation-card-background: rgba(217, 226, 255, 1)
+            automation-card-name-color: rgba(2, 86, 207, 1)
+            automation-card-icon-color: rgba(2, 86, 207, 1)
+            automation-card-label-color: rgba(2, 86, 207, 1)
+
+            # Navbar
+            app-header-background-color: rgba(242, 246, 252, 1)
+            app-header-text-color: rgba(68, 71, 70, 1) 
+            app-header-edit-background-color: rgba(242, 246, 252, 1)
+            header-selected-color-background: rgba(194, 231, 255, 1)
+            header-selected-icon-color: rgba(3, 32, 56, 1)
+
+    # Opacity token
+    token-opacity-ripple-hover: 0.14
+
+    # Size tokens
+    token-size-radius-small: 16px
+    token-size-radius-medium: 24px
+    token-size-radius-large: 30px
+    token-size-radius-card: 30px
+    token-size-width-border-card: 0
+    token-size-height-slider: 4px
+    # token-size-height-navbar: 80px
+    token-size-font-title: 28px
+
+    # Weight token
+    token-weight-font-title: 600
+
+    # Spacings
+    horizontal-stack-card-margin: 0px 4px
+    vertical-stack-card-margin: 4px 0px
+
+    # Shapes
+    mdc-shape-small: var(--token-size-radius-small)
+    mdc-shape-medium: var(--token-size-radius-medium)
+    mdc-shape-large: var(--token-size-radius-large)
+
+    # Sizes
+    # header-height: var(--token-size-height-navbar)
+    paper-slider-height: var(--token-size-height-slider)
+
+    # Typography
+    primary-font-family: 'Product Sans'
+    paper-font-common-base_-_font-family: "var(--primary-font-family)"
+    paper-font-common-code_-_font-family: "var(--primary-font-family)"
+    paper-font-body1_-_font-family: "var(--primary-font-family)"
+    paper-font-subhead_-_font-family: "var(--primary-font-family)"
+    paper-font-headline_-_font-family: "var(--primary-font-family)"
+    paper-font-caption_-_font-family: "var(--primary-font-family)"
+    paper-font-title_-_font-family: "var(--primary-font-family)"
+    ha-card-header-font-family: "var(--primary-font-family)"  
+    mdc-typography-font-family: var(--primary-font-family)
+    mdc-typography-button-font-family: var(--primary-font-family)
+    mdc-typography-body1-font-family: var(--primary-font-family)
+
+    mdc-typography-button-font-weight: var(--token-weight-font-title)
+    title-font-weight: var(--token-weight-font-title)
+    title-font-size: var(--token-size-font-title)
+
+    # Text
+    primary-text-color: var(--token-color-text-primary)
+    secondary-text-color: var(--token-color-text-secondary)
+    text-primary-color: var(--token-color-text-primary)
+    text-light-primary-color: var(--token-color-text-primary)
+    disabled-text-color: var(--token-color-text-disabled)
+
+    # Main interface colors
+    primary-color: var(--token-color-primary)
+    dark-primary-color: var(--primary-color)
+    light-primary-color: var(--primary-color)
+    accent-color: var(--token-color-accent)
+    divider-color: var(--token-color-background-divider)
+    scrollbar-thumb-color: var(--token-color-background-scrollbar-thumb)
+    mdc-theme-primary: var(--accent-color)
+    mdc-theme-on-primary: var(--primary-color)
+
+    # Background
+    lovelace-background: var(--token-color-background-base)
+    background-color: var(--token-color-background-base)
+    primary-background-color: var(--token-color-background-base)
+    secondary-background-color: var(--token-color-background-secondary)
+
+    # Sidebar
+    sidebar-icon-color: var(--token-color-icon-sidebar)
+    sidebar-text-color: var(--sidebar-icon-color)
+    sidebar-background-color: var(--token-color-background-sidebar)
+    sidebar-selected-icon-color: var(--token-color-icon-sidebar-selected)
+    sidebar-selected-text-color: var(--token-color-text-sidebar-selected)
+
+    # Cards
+    border-radius: var(--token-size-radius-card)
+    card-background-color: var(--token-color-background-card)
+    ha-card-background: var(--token-color-background-card)
+    ha-card-border-radius: var(--token-size-radius-card)
+    ha-card-border-color: var(--token-color-border-card)
+    ha-card-border-width: var(--token-size-width-border-card)
+    ha-card-border-style: none
+    ha-card-border: none
+    ha-card-box-shadow: none
+    ha-config-card-border-radius: var(--token-size-radius-small)
+
+    # States
+    state-icon-color: var(--token-color-icon-primary)
+    state-on-color: var(--token-color-feedback-success)
+    state-off-color: var(--token-color-feedback-error)
+    disabled-color: var(--token-color-background-tertiary)
+
+    # Label-badge
+    label-badge-text-color: var(--token-color-text-primary)
+    label-badge-red: var(--token-color-background-label-badge-red)
+    label-badge-blue: var(--token-color-background-label-badge-blue)
+    label-badge-green: var(--token-color-background-label-badge-green)
+    label-badge-yellow: var(--token-color-background-label-badge-yellow)
+    label-badge-grey: var(--token-color-background-label-badge-grey)
+
+    # Dialog
+    mdc-dialog-scrim-color: var(--token-color-background-popup-scrim)
+
+    # Slider
+    paper-slider-knob-color: var(--token-color-primary)
+    paper-slider-knob-start-color: var(--paper-slider-knob-color)
+    paper-slider-pin-color: var(--paper-slider-knob-color)
+    paper-slider-active-color: var(--paper-slider-knob-color)
+    paper-slider-secondary-color: var(--light-primary-color)
+
+    # Switch
+    switch-checked-button-color: var(--primary-color)
+    switch-checked-track-color: var(--switch-checked-button-color)
+
+    # Toggles
+    paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+    paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+    paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+    paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+    mdc-checkbox-unchecked-color: var(--token-color-icon-secondary)
+    mdc-radio-unchecked-color: var(--mdc-checkbox-unchecked-color)
+
+    # List items
+    mdc-ripple-hover-opacity: var(--token-opacity-ripple-hover)
+
+    # Text Fields an Dropdown
+    input-background-color: var(--token-color-background-input-base)
+    input-background-token-color-disabled: rgba(var(--input-background-color), 0.5)
+    input-fill-color: var(--input-background-color)
+    input-ink-color: var(--token-color-text-primary)
+    input-label-ink-color: var(--token-color-text-primary)
+    input-disabled-fill-color: var(--input-background-token-color-disabled)
+    input-disabled-ink-color: var(--disabled-text-color)
+    input-disabled-label-ink-color: var(--disabled-text-color)
+    input-idle-line-color: var(--background-color)
+    input-dropdown-icon-color: var(--secondary-text-color)
+    input-hover-line-color: var(--primary-color)
+    mdc-select-idle-line-color: var(--color-background-base)
+    mdc-text-field-idle-line-color: var(--mdc-select-idle-line-color)
+
+    # Editor
+    code-editor-background-color: var(--token-color-background-base)
+    codemirror-meta: var(--token-color-text-primary)
+    codemirror-property: var(--accent-color)
+    codemirror-atom: var(--codemirror-property)
+
+    # RGB colors
+    rgb-white-color: 240, 243, 255
+    rgb-purple-color: 189, 157, 255
+    rgb-pink-color: 255, 98, 192
+    rgb-red-color: 255, 97, 116
+    rgb-deep-purple-color: 166, 77, 255
+    rgb-indigo-color: 84, 132, 255
+    rgb-blue-color: 33, 150, 243
+    rgb-light-blue-color: 3, 169, 244
+    rgb-cyan-color: 0, 188, 212
+    rgb-teal-color: 107, 255, 237
+    rgb-green-color: 141, 253, 166
+    rgb-light-green-color: 156, 255, 166
+    rgb-lime-color: 205, 220, 57
+    rgb-yellow-color: 255, 235, 59
+    rgb-amber-color: 255, 211, 99
+    rgb-orange-color: 229, 145, 9
+    rgb-deep-orange-color: 255, 87, 34
+    rgb-brown-color: 121, 85, 72
+    rgb-grey-color: 158, 158, 158
+    rgb-blue-grey-color: 96, 125, 139
+    rgb-black-color: 0, 0, 0
+    rgb-disabled-color: 61, 65, 85
+    rgb-state-inactive-color: 123, 126, 139
+
+    # Navbar
+    header-height: "80px"
+  
+    ### Card Mod theming ###
+    # Turns header into a footer
+    # Colors current view icon and background instead of underline
+    # Spaces view icons evenly along footer
+    #   - Breaks if you go to a subpage or edit mode
+    #   - Fixes if you change dashboards or refreshes
+
+    card-mod-theme: 'Google Home'
+    card-mod-root-yaml: |
+        .: |
+
+            /* Hide header - Start */
+            div#view{
+                transform: initial;
+                padding: 0 !important;
+                margin: 0 !important;
+                width: 100%;
+            }
+            #view {
+                padding-top: calc(-1 * var(--header-height)) !important;
+            }
+            .header {
+                display: none;
+            }
+            .toolbar {
+                display: none;
+            }
+            .edit-mode .header {
+                display: none;
+            }
+            a.menu-link[target="_blank"], ha-button-menu, [main-title] {
+                display: none !important;
+            }
+            ha-menu-button, ha-icon-button {
+                display: none !important;
+            }
+            /* Hide header - End */
+
+            :host([scrolled]) .header {
+                box-shadow: none !important;
+            }
+            
+            ha-tabs: {
+                height: var(--header-height);
+                --paper-tabs-selection-bar-color: var(--header-selected-color-background) !important;
+                color: var(--app-header-text-color) !important;
+            }
+
+            ha-tabs {
+                --mdc-icon-size: 26px;
+                display: flex;
+                justify-content: space-between !important;
+                padding: 10px;
+                margin-top: 20px;
+                height: var(--header-height) !important;
+                transition: none;
+            }
+
+            paper-tab[aria-selected=true] > ha-icon, paper-tab[aria-selected=true] {
+                color: var(--header-selected-icon-color) !important;
+            }
+
+            paper-tab[aria-selected=true] {
+                color: var(--header-selected-icon-color);
+                background-color: var(--header-selected-color-background);
+                transition: none;
+            }
+
+            paper-tab {
+                border-radius: 20px;
+                padding: 0 22px;
+                height: 40px;
+                transition: none;
+            }
+
+            paper-tab > ha-icon {
+                width: 24px;
+                height: 36px;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                align-self: start;
+                position: relative;
+                top: 4px;
+                transition: width 0.2s cubic-bezier(.2,0,0,1);
+            }
+
+            paper-tab.iron-selected > ha-icon {
+                width: 100%;
+                max-width: 72px;
+                color: var(--header-selected-icon-color);
+                background-color: var(--header-selected-color-background);
+                border-radius: var(--mdc-shape-small);
+            }
+
+        ha-tabs$: |
+            #tabsContainer {
+                display: flex;
+                justify-content: center;
+                padding-right: 5px;
+                transition: none;
+            }
+
+            #selectionBar {
+                border-bottom: 4px solid;
+                color: #00000000;
+                transition: none;
+            }
+
+    card-mod-view-yaml: |
+        :first-child $: |
+            ha-fab {
+                bottom: calc(16px + var(--header-height)) !important;
+                transition: none;
+            }
+
+            hui-view {
+              transform: translate3d(0px, calc(-1 * var(--header-height)), 0px);
+            }
+
+            /* hui-view { */
+            /*   transform: translate3d(0px, calc(-1 * var(--header-height)), 0px); */
+            /* } */
