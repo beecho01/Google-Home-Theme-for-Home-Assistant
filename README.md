@@ -107,7 +107,7 @@ This pertains to the Favourites View or the default view in the configuration
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Favourites/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Favourites/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Favourites/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Favourites/Image2.png' width='250'> |
 
 ### Devices
 
@@ -119,7 +119,7 @@ This pertains to the Devices View. This is a self-populating page for each Area 
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Devices/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Devices/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Devices/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Devices/Image2.png' width='250'> |
 
 ### Automations
 
@@ -131,7 +131,7 @@ This pertains to the Automations View. This is a self-populating page for each A
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Automations/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Automations/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Automations/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Automations/Image2.png' width='250'> |
 
 ### Activity
 
@@ -143,7 +143,7 @@ This pertains to the Activity View. This is a log of each activity for the domai
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Activity/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Activity/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Activity/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Activity/Image2.png' width='250'> |
 
 ### Settings
 
@@ -155,7 +155,7 @@ This pertains to the Settings View.
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Settings/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Settings/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Settings/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Settings/Image2.png' width='250'> |
 
 ### Updates
 
@@ -167,7 +167,7 @@ This pertains to the Updates View. This shows sensors and notifications for upda
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Updates/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Updates/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Updates/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Updates/Image2.png' width='250'> |
 
 ### Network
 
@@ -179,7 +179,7 @@ This pertains to the Network View.
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Network/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Network/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Network/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Network/Image2.png' width='250'> |
 
 ### Network Devices
 
@@ -191,7 +191,7 @@ This pertains to the Network Devices sub-view.
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Network%20Devices/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Network%20Devices/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Network%20Devices/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Network%20Devices/Image2.png' width='250'> |
 
 ### Network Points
 
@@ -203,7 +203,7 @@ This pertains to the Network Points sub-view.
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Network%20Points/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Network%20Points/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Network%20Points/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Network%20Points/Image2.png' width='250'> |
 
 ### Connected Devices
 
@@ -215,7 +215,7 @@ This pertains to the Connected Devices sub-view.
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Connected%20Devices/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Connected%20Devices/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Connected%20Devices/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Connected%20Devices/Image2.png' width='250'> |
 
 ### Share Password
 
@@ -227,7 +227,7 @@ This pertains to the Share Password sub-view.
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Share%20Password/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Share%20Password/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Share%20Password/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Share%20Password/Image2.png' width='250'> |
 
 ### Lighting
 
@@ -239,7 +239,7 @@ This pertains to the Lighting sub-view.
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Lighting/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Lighting/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Lighting/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Lighting/Image2.png' width='250'> |
 
 ### Cameras
 
@@ -251,7 +251,7 @@ This pertains to the Cameras sub-view.
 
 | Application Reference | Home Assistant View |
 | --- | --- |
-| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Cameras/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/Images/Cameras/Image2.png' width='250'> |
+| <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Cameras/Image1.png' width='250'> | <img src='https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant/blob/main/images/Cameras/Image2.png' width='250'> |
 
 
 ## <a name="Troubleshooting"></a>Troubleshooting
