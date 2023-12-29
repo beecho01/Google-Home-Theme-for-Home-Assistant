@@ -74,7 +74,7 @@ https://github.com/beecho01/Google-Home-Theme-For-Home-Assistant
 ```
 - Select the category "Lovelace".
 - Select "ADD".
-- Open your "configuration.yaml" via File editor or other means.
+- Open your `configuration.yaml` via File editor or other means.
 - Add the following (if it does not already exist), save and restart Home Assistant.
 ```
 frontend:
@@ -84,6 +84,7 @@ frontend:
 ### Manual:
 - Create the folder `Google_Home` into your `/homeassistant/themes/` folder.
 - Upload the file `google_home.yaml` to the newly created folder `/homeassistant/themes/Google_Home`
+- Open your `configuration.yaml` via File editor or other means.
 - Add the following (if it does not already exist), save and restart Home Assistant.
 ```
 frontend:
